@@ -13,7 +13,7 @@ public class HomeController {
 	@GetMapping
 	public ResponseEntity<ApiResponse> homeController(){
 		
-		ApiResponse res=new ApiResponse("welcome to zosh recipe plateform",true);
+		ApiResponse res=new ApiResponse("welcome",true);
 		return new ResponseEntity<ApiResponse>(res,HttpStatus.OK);
 	}
 
